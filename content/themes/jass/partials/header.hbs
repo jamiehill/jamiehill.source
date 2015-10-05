@@ -1,0 +1,18 @@
+<header>
+	<div class="wrapper">
+
+		<div id="logo">
+			{{#if @blog.logo}}<a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+			{{else}}<a href="{{@blog.url}}">{{@blog.title}}</a>
+			{{/if}}
+		</div>{{navigation}}
+		</nav>
+		<div class="mobile_social">
+			<h5>Follow me</h5>
+			<div class="icons">
+				{{> social }}
+			</div>
+			<small class="copy">creado con ghost por <a href="http://gulp.dev">ghosbuzter</a></small>
+		</div>
+	</div>
+</header>
