@@ -25,11 +25,11 @@ And login in to the admin panel to configure for the first time:
     
 When any changes are made to your blog, be they theme mofications, css updated, or edit/creating new pages, the stat needs to be generated again, into the static version that Github Pages can host.
 
-All published blog posts could be exported to the static folder with Buster.  The following commands are the one's for you:
+All published blog posts will be exported to the static folder with Buster.  The following commands are the one's for you:
 
-    buster generate --domain=http://localhost:2368  
-    buster preview  
+    buster generate --domain=http://localhost:2368
+    buster preview
 
-The first line will simply generate our files for us.  And the second, serve up what's been generated, on `localhost:9000`. 
+The first line will simply generate our files for us, while the second, serve up what's been generated, on `localhost:9000`. This is optional, if you want to preview whats been generated
 
 If you're happy with you results, simply commit everything in you submodule, et Voila!
